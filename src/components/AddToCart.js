@@ -60,7 +60,7 @@ const AddToCart = ({ product }) => {
         />
         <Link
           to="/cart"
-          className="btn"
+          className="btn add-to-cart"
           onClick={() => addToCart(id, mainColor, amount, product)}
         >
           add to cart
@@ -113,6 +113,9 @@ const Wrapper = styled.section`
   .btn {
     margin-top: 1rem;
     width: 140px;
+  }
+  .add-to-cart {
+    text-align: center;
   }
 `;
 export default AddToCart;
