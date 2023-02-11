@@ -50,3 +50,5 @@ exports.handler = async function () {
     };
   }
 };
+
+// these are serverless function
